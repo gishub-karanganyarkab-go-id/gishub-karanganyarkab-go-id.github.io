@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GISHub Karanganyar</title>
+    <meta name="google-site-verification" content="SrTZawFSaLAONuV52vjH13dAEw3zOeO0J7W9G7wwpi8" />
+    <link rel="icon" type="image/png" href="http://gishub.karanganyarkab.go.id/assets/img/gishub_icon.png">
+
+    <!-- SEO Basic -->
+    <meta name="description" content="Portal GISHub Kabupaten Karanganyar - Informasi Geospasial Terintegrasi">
+    <meta name="keywords" content="GIS Karanganyar, Peta Karanganyar, GISHub">
+
+    <!-- Font & CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #f5f7fa;
+        }
+
+        /* HEADER */
+        header {
+            background: #0d6efd;
+            color: white;
+            padding: 15px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header img {
+            height: 50px;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* HERO */
+        .hero {
+            background: url('https://images.unsplash.com/photo-1524661135-423995f22d0b') no-repeat center/cover;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            background: rgba(0,0,0,0.5);
+            padding: 15px 30px;
+            border-radius: 10px;
+        }
+
+        /* FEATURES */
+        .features {
+            padding: 60px 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .card img {
+            width: 60px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #222;
+            color: #aaa;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="http://gishub.karanganyarkab.go.id/assets/img/gishub_logo.png" alt="Logo GISHub">
+        <nav>
+            <a href="#">Beranda</a>
+            <a href="#">Peta</a>
+            <a href="#">Data</a>
+            <a href="#">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>GISHub Karanganyar</h1>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png">
+            <h3>Peta Interaktif</h3>
+            <p>Akses peta digital wilayah Karanganyar</p>
+        </div>
+
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/2991/2991108.png">
+            <h3>Data Geospasial</h3>
+            <p>Data lengkap berbasis lokasi</p>
+        </div>
+
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png">
+            <h3>Integrasi Sistem</h3>
+            <p>Terhubung dengan berbagai layanan pemerintah</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 GISHub Karanganyar - Rebuild Version</p>
+    </footer>
+
+</body>
+</html>
